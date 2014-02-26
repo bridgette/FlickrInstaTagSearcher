@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F15A54C18B581F800B0CCDC /* ISMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15A54B18B581F800B0CCDC /* ISMainViewController.m */; };
+		3F15A54F18B5821600B0CCDC /* FRMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F15A54D18B5821600B0CCDC /* FRMainViewController.xib */; };
+		3F15A55018B5821600B0CCDC /* ISMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F15A54E18B5821600B0CCDC /* ISMainViewController.xib */; };
+		3F15A55518B5823000B0CCDC /* INETImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15A55218B5823000B0CCDC /* INETImageView.m */; };
+		3F15A55618B5823000B0CCDC /* ISInstagramTagSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F15A55418B5823000B0CCDC /* ISInstagramTagSearcher.m */; };
+		3F1A23CC18AB1B50009248BD /* FRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A23CB18AB1B50009248BD /* FRMainViewController.m */; };
+		3F1A23CD18AB1B50009248BD /* FRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A23CB18AB1B50009248BD /* FRMainViewController.m */; };
+		3F1A23D018AB1C72009248BD /* FRTagSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A23CF18AB1C72009248BD /* FRTagSearcher.m */; };
+		3F1A23D118AB1C72009248BD /* FRTagSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A23CF18AB1C72009248BD /* FRTagSearcher.m */; };
+		3F1A23E318AC21AA009248BD /* Flickr_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A23E118AC21AA009248BD /* Flickr_Logo.png */; };
+		3F1A23E418AC21AA009248BD /* Flickr_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A23E118AC21AA009248BD /* Flickr_Logo.png */; };
+		3F1A23E518AC21AA009248BD /* instaLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A23E218AC21AA009248BD /* instaLogo.jpg */; };
+		3F1A23E618AC21AA009248BD /* instaLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1A23E218AC21AA009248BD /* instaLogo.jpg */; };
 		6AC4B20517EA4AEF00E8A408 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC4B20417EA4AEF00E8A408 /* UIKit.framework */; };
 		6AC4B20717EA4AEF00E8A408 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC4B20617EA4AEF00E8A408 /* Foundation.framework */; };
 		6AC4B20917EA4AEF00E8A408 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC4B20817EA4AEF00E8A408 /* CoreGraphics.framework */; };
@@ -34,6 +47,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F15A54A18B581D900B0CCDC /* ISMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISMainViewController.h; sourceTree = "<group>"; };
+		3F15A54B18B581F800B0CCDC /* ISMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISMainViewController.m; sourceTree = "<group>"; };
+		3F15A54D18B5821600B0CCDC /* FRMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FRMainViewController.xib; sourceTree = "<group>"; };
+		3F15A54E18B5821600B0CCDC /* ISMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ISMainViewController.xib; sourceTree = "<group>"; };
+		3F15A55118B5823000B0CCDC /* INETImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INETImageView.h; sourceTree = "<group>"; };
+		3F15A55218B5823000B0CCDC /* INETImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INETImageView.m; sourceTree = "<group>"; };
+		3F15A55318B5823000B0CCDC /* ISInstagramTagSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISInstagramTagSearcher.h; sourceTree = "<group>"; };
+		3F15A55418B5823000B0CCDC /* ISInstagramTagSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISInstagramTagSearcher.m; sourceTree = "<group>"; };
+		3F1A23CA18AB1B50009248BD /* FRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRMainViewController.h; sourceTree = "<group>"; };
+		3F1A23CB18AB1B50009248BD /* FRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRMainViewController.m; sourceTree = "<group>"; };
+		3F1A23CE18AB1C72009248BD /* FRTagSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTagSearcher.h; sourceTree = "<group>"; };
+		3F1A23CF18AB1C72009248BD /* FRTagSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTagSearcher.m; sourceTree = "<group>"; };
+		3F1A23E118AC21AA009248BD /* Flickr_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flickr_Logo.png; sourceTree = "<group>"; };
+		3F1A23E218AC21AA009248BD /* instaLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = instaLogo.jpg; sourceTree = "<group>"; };
 		6AC4B20117EA4AEF00E8A408 /* TabBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC4B20417EA4AEF00E8A408 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6AC4B20617EA4AEF00E8A408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -112,6 +139,20 @@
 		6AC4B20A17EA4AEF00E8A408 /* TabBarExample */ = {
 			isa = PBXGroup;
 			children = (
+				3F1A23E118AC21AA009248BD /* Flickr_Logo.png */,
+				3F1A23E218AC21AA009248BD /* instaLogo.jpg */,
+				3F15A54A18B581D900B0CCDC /* ISMainViewController.h */,
+				3F1A23CA18AB1B50009248BD /* FRMainViewController.h */,
+				3F1A23CB18AB1B50009248BD /* FRMainViewController.m */,
+				3F15A54B18B581F800B0CCDC /* ISMainViewController.m */,
+				3F15A54D18B5821600B0CCDC /* FRMainViewController.xib */,
+				3F15A54E18B5821600B0CCDC /* ISMainViewController.xib */,
+				3F15A55118B5823000B0CCDC /* INETImageView.h */,
+				3F15A55218B5823000B0CCDC /* INETImageView.m */,
+				3F15A55318B5823000B0CCDC /* ISInstagramTagSearcher.h */,
+				3F15A55418B5823000B0CCDC /* ISInstagramTagSearcher.m */,
+				3F1A23CE18AB1C72009248BD /* FRTagSearcher.h */,
+				3F1A23CF18AB1C72009248BD /* FRTagSearcher.m */,
 				6AC4B21317EA4AEF00E8A408 /* AppDelegate.h */,
 				6AC4B21417EA4AEF00E8A408 /* AppDelegate.m */,
 				6AC4B20B17EA4AEF00E8A408 /* Supporting Files */,
@@ -200,7 +241,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Pomona College";
 			};
-			buildConfigurationList = 6AC4B1FC17EA4AEF00E8A408 /* Build configuration list for PBXProject "TabBarExample" */;
+			buildConfigurationList = 6AC4B1FC17EA4AEF00E8A408 /* Build configuration list for PBXProject "PhotoViewr" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -224,7 +265,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AC4B20F17EA4AEF00E8A408 /* InfoPlist.strings in Resources */,
+				3F15A54F18B5821600B0CCDC /* FRMainViewController.xib in Resources */,
 				6AC4B21717EA4AEF00E8A408 /* Default.png in Resources */,
+				3F1A23E318AC21AA009248BD /* Flickr_Logo.png in Resources */,
+				3F1A23E518AC21AA009248BD /* instaLogo.jpg in Resources */,
+				3F15A55018B5821600B0CCDC /* ISMainViewController.xib in Resources */,
 				6AC4B21917EA4AEF00E8A408 /* Default@2x.png in Resources */,
 				6AC4B21B17EA4AEF00E8A408 /* Default-568h@2x.png in Resources */,
 			);
@@ -235,6 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AC4B22D17EA4AEF00E8A408 /* InfoPlist.strings in Resources */,
+				3F1A23E418AC21AA009248BD /* Flickr_Logo.png in Resources */,
+				3F1A23E618AC21AA009248BD /* instaLogo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +308,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F15A55518B5823000B0CCDC /* INETImageView.m in Sources */,
 				6AC4B21117EA4AEF00E8A408 /* main.m in Sources */,
+				3F15A54C18B581F800B0CCDC /* ISMainViewController.m in Sources */,
 				6AC4B21517EA4AEF00E8A408 /* AppDelegate.m in Sources */,
+				3F1A23CC18AB1B50009248BD /* FRMainViewController.m in Sources */,
+				3F15A55618B5823000B0CCDC /* ISInstagramTagSearcher.m in Sources */,
+				3F1A23D018AB1C72009248BD /* FRTagSearcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +322,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F1A23D118AB1C72009248BD /* FRTagSearcher.m in Sources */,
+				3F1A23CD18AB1B50009248BD /* FRMainViewController.m in Sources */,
 				6AC4B23017EA4AEF00E8A408 /* TabBarExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6AC4B1FC17EA4AEF00E8A408 /* Build configuration list for PBXProject "TabBarExample" */ = {
+		6AC4B1FC17EA4AEF00E8A408 /* Build configuration list for PBXProject "PhotoViewr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6AC4B23117EA4AEF00E8A408 /* Debug */,
@@ -435,6 +489,7 @@
 				6AC4B23517EA4AEF00E8A408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AC4B23617EA4AEF00E8A408 /* Build configuration list for PBXNativeTarget "TabBarExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +498,7 @@
 				6AC4B23817EA4AEF00E8A408 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

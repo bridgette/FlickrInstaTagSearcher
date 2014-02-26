@@ -1,9 +1,5 @@
 //
 //  AppDelegate.m
-//  TabBarExample
-//
-//  Created by Patrick McNally on 9/18/13.
-//  Copyright (c) 2013 Pomona College. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -15,7 +11,38 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    //create the tab bar controller object
+    self.tabBarController = [[UITabBarController alloc] init];
+    
+    //create the first view controller
+    UIViewController *redView = [[UIViewController alloc] init];
+    //[redView.view setBackgroundColor:[UIColor redColor]];
+    //[redView.view setFrame:[[UIScreen mainScreen] bounds]];
+    redView = [[ISMainViewController alloc] initWithNibName:@"ISMainViewController" bundle:nil];
+    
+    //this is where we set the red view's representation on the tab bar
+    redView.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"instagram" image:nil tag:1];
+    
+    //create the second view controller
+    UIViewController *blueView = [[UIViewController alloc] init];
+    //[blueView.view setBackgroundColor:[UIColor blueColor]];
+    //[blueView.view setFrame:[[UIScreen mainScreen] bounds]];
+    
+    blueView = [[FRMainViewController alloc] initWithNibName:@"FRMainViewController" bundle:nil];
+    
+    //this is where we set the blue view's representation on the tab bar
+    blueView.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"flickr" image:nil tag:2];
+    
+    //add the viewcontrollers to the tab bar
+    [self.tabBarController setViewControllers:[NSArray arrayWithObjects:redView, blueView, nil] animated:YES];
+    
+    //add the tabbarcontroller as the root view for the App
+    [self.window setRootViewController:self.tabBarController];
+    
     [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
